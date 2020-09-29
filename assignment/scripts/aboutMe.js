@@ -33,10 +33,10 @@ let food = 'Salmon';
 let pets = 1;
 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-let friendsPets = 1;
+let friendsPets = 4;
 
 // 11 - Add two pets to your `pets` variable
-pets =+2;
+pets +=2;
 
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 const allowedPets = 3;
@@ -51,9 +51,9 @@ adventurous ? console.log ("Adventures are great!") : console.log("How about we 
 // 14 - Create a compound conditional: if age is greater than 18 and adventurous is true,
 // console log "Hurray!"
 if (user.age > 18 && adventurous) {
-    console.log ("Hurray!")
+    console.log ("Hurray!  Adventure we go")
 } else {
-    console.log("so sad")
+    console.log("So sad; Lets stay home and play cards")
 };
 
 
@@ -64,13 +64,13 @@ if (user.age > 18 && adventurous) {
 // if the value of `pets` is greater than the value of `allowedPets`.
 
 if (pets < allowedPets) {
-    console.log ("I can have more pets!");
+    console.log (`I can have more pets at ${pets}!`);
 } else if (pets == allowedPets) {
-    console.log ("I have enough Pets");
+    console.log (`I have enough pets at ${pets}!`);
 } else if (pets > allowedPets) {
-    console.log ("Oh no, I have too many pets!");
+    console.log (`Oh no, I have too many pets at ${pets}!`);
 } else {
-    console.log ("I have no idea how many pets you have or can have");
+    console.log (`I have no idea how many pets you have or can have`);
 };
 
 
@@ -86,12 +86,12 @@ if (pets > friendsPets) {
     winner = "I win"
 } else if (friendsPets > pets) {
     mostPets = friendsPets;
-    winner = "Friend Wins"
+    winner = "Friend wins"
 } else if (pets === friendsPets) {
     winner = "Its a tie"
 } else {
     winner = "Jims logic losses"
 };
-console.log (`${winner} at ${mostPets} total`);
+console.log (`${winner} at ${mostPets} total.`);
 
 
