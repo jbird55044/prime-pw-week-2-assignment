@@ -73,7 +73,6 @@ if (pets < allowedPets) {
     console.log (`I have no idea how many pets you have or can have`);
 };
 
-
 // 16 - Write a conditional that assigns the value of the `pets` variable 
 // to a new variable called `mostPets` IF `pets` is greater than `friendsPets`.
 // If `friendsPets` is greater than `pets`, assign the value of the `friendsPets`
